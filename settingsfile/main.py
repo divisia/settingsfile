@@ -49,6 +49,3 @@ class Settings:
         if key in ['json', 'file', 'path']:
             return super().__setattr__(key, value)
         return self.__setitem__(key, value)
-
-
-settings = Settings('config.json')

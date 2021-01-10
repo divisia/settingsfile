@@ -1,5 +1,5 @@
 # SettingsFile
-### Auto-load and auto-update your configuration with native implementation
+### Autoload and autoupdate your configuration with native implementation
 <br>
 
 ## Installation
