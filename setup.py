@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="settingsfile", # Replace with your own username
-    version="1.0",
+    version="1.0.2",
     author="Ömer Selçuk",
     author_email="omrfyyz@gmail.com",
     description="Memorize settings in Python easily. Autoload and autosave settings to a file.",

@@ -1,7 +1,7 @@
 import os, sys, json
 
 class Settings:
-    def __init__(self, path, **kwargs):
+    def __init__(self, path='settings.json', **kwargs):
         self.path = path
         if os.path.exists(self.path):
             with open(self.path, 'r') as f:
